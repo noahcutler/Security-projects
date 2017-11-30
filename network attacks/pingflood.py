@@ -10,7 +10,7 @@ parser.add_argument('-t', dest='target', type=str,help='single target IP adress'
 args = parser.parse_args()
 start = time.clock()
 phonies = []
-while time.clock()-start < 5:
+while time.clock()-start < 30:
     yi = random.randint(0,255)
     er = random.randint(0,255)
     san = random.randint(0,255)
