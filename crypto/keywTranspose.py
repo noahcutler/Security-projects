@@ -8,8 +8,8 @@ import string
 import sys
 
 
-keyw = sys.argv[2]
-mssg = sys.argv[3]
+keyw = sys.argv[2].upper()
+mssg = sys.argv[3].upper()
 
 word = list(string.ascii_uppercase)
 
